@@ -74,6 +74,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 ])
             ))
      //Hintergrundmusik
+        let backgroundMusic = SKAudioNode(fileNamed: "background-music-aac.caf")
+        backgroundMusic.autoplayLooped = true
+        addChild(backgroundMusic)
+        
+        
         
     }
     func random() -> CGFloat {
@@ -116,6 +121,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        runAction(SKAction.playSoundFileNamed("pew-pew-lei.caf", waitForCompletion: false))
         
         // 1 - Choose one of the touches to work with
         guard let touch = touches.first else {

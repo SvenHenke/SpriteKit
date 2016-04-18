@@ -15,6 +15,7 @@
 		5E4F058A1CC4BB250004FD1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4F05881CC4BB250004FD1F /* LaunchScreen.storyboard */; };
 		5EF886241CC4C13900AB03ED /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 5EF886221CC4C13900AB03ED /* Sounds */; };
 		5EF886251CC4C13900AB03ED /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 5EF886231CC4C13900AB03ED /* sprites.atlas */; };
+		5EF886271CC4CE6400AB03ED /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF886261CC4CE6400AB03ED /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5E4F058B1CC4BB250004FD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EF886221CC4C13900AB03ED /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		5EF886231CC4C13900AB03ED /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		5EF886261CC4CE6400AB03ED /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				5E4F057B1CC4BB250004FD1F /* AppDelegate.swift */,
 				5E4F057F1CC4BB250004FD1F /* GameScene.swift */,
+				5EF886261CC4CE6400AB03ED /* GameOverScene.swift */,
 				5E4F05811CC4BB250004FD1F /* GameViewController.swift */,
 				5E4F05831CC4BB250004FD1F /* Main.storyboard */,
 				5E4F05861CC4BB250004FD1F /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 			files = (
 				5E4F05801CC4BB250004FD1F /* GameScene.swift in Sources */,
 				5E4F05821CC4BB250004FD1F /* GameViewController.swift in Sources */,
+				5EF886271CC4CE6400AB03ED /* GameOverScene.swift in Sources */,
 				5E4F057C1CC4BB250004FD1F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
